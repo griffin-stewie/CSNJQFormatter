@@ -18,10 +18,10 @@ Print out `jq` command equivalents for `JSON`, `NSString` and `NSData` *(e.g. `c
 ## Usage
  
 ```objective-c
-[TTTJSONFormatter jqCommandFromJSON:@{@"foo": @"bar"}];
+[CSNJQFormatter jqCommandFromJSON:@{@"foo": @"bar"}];
 ```
  
-     cat <<'END' | jq '.' 
+    cat <<'END' | jq '.' 
     {"foo":"bar"}
     END
  
